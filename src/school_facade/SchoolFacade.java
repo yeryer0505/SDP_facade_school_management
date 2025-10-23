@@ -67,7 +67,7 @@ public class SchoolFacade {
     }
 
     public void startSchoolDay() {
-        System.out.println(name + ": " + startMessage);
+        System.out.println("SchoolFacade" + ": " + startMessage);
         secretary.doWork();
         teacher.doWork();
         accountant.doWork();
